@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+  
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-size: 12px;
+    background: #FFF;
+	font-family:iran !important
+}
+
+
+
+#mask {
+    position: fixed;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #191919;
+}
+
+#loading {
+    margin: 0 auto;
+    width: 32px;
+    padding-top: 140px;
+}
+ul li {
+	list-style:none !important}
+.feed-item {
+    border-bottom: 1px solid #ccc;
+    line-height: 30px;
+  
+	text-align:right;
+	direction:rtl
+}
+.feed-item h3 {
+    font-size: 110%;
+    color: #313732;
+    font-weight: bold;
+    margin: 2px;
+}
+
+.feed-item p {
+    font-size: 100%;
+   
+}
+
+#error-message {
+    padding: 20px;
+    color: red;
+}
+li.feed-item .imagediv  {
+	
+	max-width:80px;
+	float:right;
+	margin-left:5px;
+	width:15%;
+	text-align:center;
+	padding:5px}
+.imagediv img  {
+	width:100%}
+.text {
+	float:left;
+	height:90px;
+	overflow:hidden;
+	width:80%}
+li.feed-item {
+	height:95px;
+	margin-bottom:10px;
+	width:90%;
+	margin:5px auto;
+	 box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	background-color:#FFF}
+ul#feed-list  {
+	background-color:#ebebeb !important}
+	.clr {
+		width:100%;
+		height:1px;
+		clear:both}
+@media screen and (max-width: 320px) {
+	.text {
+		font-size:11px;
+		width:70% }
+	
+	 }
+ 
